@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  @include breakpoint(xs) {
+    justify-content: center;
+    padding-top: 30px;
+  }
+  a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: normal;
+    border-radius: 12px;
+    color: $ruby;
+    &:hover {
+      color: $ruby-hover;
+      text-decoration: none;
+    }
+    img {
+      margin-left: 10px;
+    }
+  }
+}

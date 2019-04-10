@@ -1,0 +1,44 @@
+.btn {
+  transition: all 200ms ease-in-out;
+  &.-primary {
+    background: radial-gradient(243.25px at 0% 0%, #fa2946 0%, #cc1c58 100%);
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: normal;
+    color: #ffffff;
+    padding: 17px 20px;
+  }
+  &:hover {
+    transform: translatey(-3px);
+    box-shadow: 0 10px 20px rgba(13, 57, 114, 0.15);
+    transition: all 200ms ease-in-out;
+  }
+  &:active {
+    transform: translatey(3px);
+    box-shadow: 0 10px 20px rgba(13, 57, 114, 0.15);
+    transition: all 100ms ease-in-out;
+    background: radial-gradient(
+      243.25px at 0% 0%,
+      #fa2946 0%,
+      #cc1c58 100%
+    ) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem #fa294530;
+  }
+  &.-ico {
+    img {
+      margin-left: 10px;
+    }
+  }
+  &.-form {
+    position: absolute;
+    top: 12px;
+    padding: 13px;
+    right: 12px;
+    border-radius: 16px;
+    border: none;
+  }
+}
