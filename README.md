@@ -11,7 +11,7 @@ Template Giveaway is a free landing page for launching your your next startup! I
 
 How To Use:
 
-1.  Clone the git repo — `git clone https://github.com/r4in/alpha-boilerplate.git`
+1.  Clone the git repo — `https://github.com/r4in/template-giveaway/`
 
 2.  Install all node dependencies with `npm install --save-dev`. I'm using Gulp as my primary task runner for autotomating stuff around.
 
